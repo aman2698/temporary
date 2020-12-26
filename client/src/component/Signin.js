@@ -22,7 +22,7 @@ const Signin = ({isAuthenticated,login}) => {
 
       }
       if (isAuthenticated) {
-        return <Redirect to="/weather" />;
+        return <Redirect to="/home" />;
       }
     return (
        

@@ -30,7 +30,7 @@ const Signup = (props) => {
 
        //redirect
     if (props.isAuthenticated) {
-        return <Redirect to="/weather" />;
+        return <Redirect to="/home" />;
       }
 
     return (

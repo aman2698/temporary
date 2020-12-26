@@ -6,9 +6,10 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Signup from './component/Signup';
 import Signin from './component/Signin';
 import Weather from './component/Weather';
-
+import Home from './component/Home';
 import { Provider } from "react-redux";
 import store from "./store";
+
 
 
 const App = () => {
@@ -21,6 +22,7 @@ const App = () => {
 <Route exact path="/signup" component={Signup} />
 <Route exact path="/signin" component={Signin} /> 
 <Route exact path="/weather" component={Weather} /> 
+<Route exact path="/home" component={Home} /> 
 
       </Switch>
     </Fragment>
